@@ -199,6 +199,7 @@ margin-bottom:8px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--adres-colr);
+  text-align: center;
 }
 
 .section-two{
@@ -249,6 +250,29 @@ margin-bottom:8px;
 .logo-text-buffer {
   color: #f4f4fd;
 }
+
+.section-three-one{
+  display: flex;
+  gap: 24px;
+  text-align: center;  
+
+}
+
+.section-three-two{
+  width: calc((100% - 72px) / 4);
+}
+
+.jmeno-prace{
+  padding: 32px 16px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+border-radius: 0px 0px 4px 4px;
+}
+
+.sub-sub-title{
+  margin-bottom: 8px;
+  text-align: center;
+}
+
 
 /*portfolio upravy*/
 .portfolio:hover,
