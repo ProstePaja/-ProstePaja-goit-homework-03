@@ -57,6 +57,7 @@
 
 
 .link-logo {
+  display: block;
  margin-right: 76px;
 
   font-family: "Raleway", sans-serif;
@@ -68,7 +69,6 @@
   text-transform: uppercase;
   color: #4d5ae5;
   display: inline-block;
-  margin-bottom: 16px;
 }
 
 .logo-text {
@@ -282,6 +282,9 @@ border-radius: 0px 0px 4px 4px;
 }
 .logo-text-buffer{
   display: inline-block;
+  margin-bottom: 16px;
+}
+.logo-buffer{
   margin-bottom: 16px;
 }
 
