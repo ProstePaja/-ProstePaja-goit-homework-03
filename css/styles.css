@@ -32,6 +32,24 @@
   padding-right: 15px;
 }
 
+.main-navigation{
+  display: flex;
+  align-items: center;
+}
+
+.menu{
+  display: flex;
+  margin-left: 76px;
+  
+}
+
+
+
+.menu li:not(:last-child){
+  margin-right: 40px;
+}
+
+
 .link-logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -48,6 +66,9 @@
 }
 
 .menu-link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -76,6 +97,7 @@
 }
 
 .address {
+  margin-left: auto;
   font-style: normal;
   color: var(--adres-colr);
 }
@@ -88,8 +110,10 @@
 }
 
 .main-title {
+  padding-top: 188px;
+  padding-bottom: 48px;
   margin-top: 0;
-  margin-bottom: 48px;
+  margin-bottom: 0;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -99,7 +123,7 @@
 
 .button-title {
   margin-top: 0;
-  margin-bottom: 412px;
+  margin-bottom: 188px;
   display: inline-block;
  border-radius: 4px;
  padding: 16px 32px;
