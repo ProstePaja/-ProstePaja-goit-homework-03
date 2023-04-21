@@ -8,8 +8,8 @@
   text-decoration: none;
 }
 
-*img{
-  display: lock;
+img{
+  display:block;
 }
 
 :root {
