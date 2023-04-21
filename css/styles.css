@@ -299,7 +299,10 @@ border-radius: 0px 0px 4px 4px;
   color: #404bbf;
 }
 
-.hero-port 
+.hero-port{
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
 
 .button-title-port-all {
  display: inline;
@@ -319,6 +322,13 @@ border-radius: 0px 0px 4px 4px;
   color: var(--portfolio-color);
   background-color: var(--portfolio-backroud);
   cursor: pointer;
+}
+.button-list{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+  justify-content: center;
 }
 
 
