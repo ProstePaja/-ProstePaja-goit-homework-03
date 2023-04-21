@@ -16,6 +16,7 @@
   --hero-color: #2e2f42;
   --portfolio-color: #4d5ae5;
   --portfolio-backroud: #f4f4fd;
+  --ramecek-tlacitka: #e7e9fc;
 }
 
 .body {
@@ -309,7 +310,7 @@ border-radius: 0px 0px 4px 4px;
  border-radius: 4px;
  padding: 12px 24px;
  min-width: 69px;
- border: 1px solid #e7e9fc;
+ border: 1px solid var(--ramecek-tlacitka);
  
  
  
@@ -324,9 +325,10 @@ border-radius: 0px 0px 4px 4px;
   cursor: pointer;
 }
 .button-list{
+  margin-bottom: 72px;
   display: flex;
   flex-wrap: wrap;
-  column-gap: 24px;
+  gap: 24px;
   row-gap: 48px;
   justify-content: center;
 }
@@ -361,6 +363,10 @@ border-radius: 0px 0px 4px 4px;
 .button-title-port-all-primary:hover,
 .button-title-port-all-primary:focus {
   color: var(--background-color);
+}
+
+.second-list{
+
 }
 
 .second-title {
