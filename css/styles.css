@@ -326,10 +326,10 @@ border-radius: 0px 0px 4px 4px;
   cursor: pointer;
 }
 .button-list{
+  column-gap : 24px;
   margin-bottom: 72px;
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
   row-gap: 48px;
   justify-content: center;
 }
@@ -359,6 +359,7 @@ border-radius: 0px 0px 4px 4px;
 .button-title-port-all:focus {
   color: var(--background-color);
   background-color: #404bbf;
+  border: 1px solid transparent;
 }
 
 .button-title-port-all-primary:hover,
@@ -380,6 +381,8 @@ border-radius: 0px 0px 4px 4px;
 .content{
   padding: 32px 16px;
   border: 1px solid var(--ramecek-tlacitka);
+  border-top: none;
+  margin-bottom: 8px;
 }
 
 .second-title {
