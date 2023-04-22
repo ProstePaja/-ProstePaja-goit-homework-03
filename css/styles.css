@@ -35,7 +35,6 @@ img{
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid #ea0a36;
 }
 
 .main-header {
@@ -49,7 +48,6 @@ img{
 
 .menu {
   display: flex;
-  margin-left: 76px;
 }
 
 .menu li:not(:last-child) {
@@ -70,6 +68,22 @@ img{
   color: #4d5ae5;
   display: inline-block;
 }
+
+.link-logo-span {
+  display: block;
+  
+
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  display: inline-block;
+}
+
 
 .logo-text {
   color: var(--address-color);
@@ -114,12 +128,16 @@ img{
 
 .hero {
   padding-top: 188px;
-  padding-bottom: 188px;
+  padding-bottom: 292px;
   background-color: var(--hero-color);
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .main-title {
+  margin-left: auto;
+  margin-right: auto;
   max-width: 496px;
   margin-top: 0;
   margin-bottom: 48px;
@@ -129,10 +147,13 @@ img{
   letter-spacing: 0.02em;
   color: var(--background-color);
 
-  text-align: center;
+  
+  
 }
 
 .button-title {
+  margin-left: auto;
+  margin-right: auto;
   height: 56px;
   margin-top: 0;
   margin-bottom: 0;
@@ -140,8 +161,6 @@ img{
   border-radius: 4px;
   padding: 16px 32px;
   min-width: 169px;
-  text-align: center;
-  display: block;
   border: none;
 
   font-family: var(--font-family);
@@ -153,6 +172,9 @@ img{
   background-color: var(--portfolio-color);
   color: var(--background-color);
   cursor: pointer;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .button-title:hover,
@@ -160,14 +182,20 @@ img{
   background-color: #404bbf;
 }
 
-.button-list li:not(:last-child) {
-  margin-right: 24px;
-}
 
 .section-one {
   padding-top: 120px;
   padding-bottom: 120px;
+
 }
+
+.fantom{
+  visibility: hidden;
+  pointer-events: none;
+  position: absolute;
+
+}
+
 .flex-conteiner {
   display: flex;
   flex-wrap: wrap;
@@ -181,10 +209,14 @@ img{
   margin-right: 24px;
 }
 
+.section-one-one{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .sub-sub-title {
   margin-top: 0;
   margin-bottom: 8px;
-
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -193,14 +225,11 @@ img{
 }
 
 .complementary-text {
-  margin-top: 0;
-  margin-bottom: 0;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--adres-colr);
-  text-align: center;
 }
 
 .section-two {
@@ -241,6 +270,11 @@ img{
   background-color: var(--address-color);
 }
 .complementary-text-footer {
+   padding-top: 0;
+ padding-bottom: 0;
+ width: 264px;
+  
+  
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -270,25 +304,32 @@ img{
   border-radius: 0px 0px 4px 4px;
 }
 
-.sub-sub-title {
-  margin-bottom: 8px;
-  text-align: center;
-}
+
 
 .footer {
   padding-top: 100px;
   padding-bottom: 100px;
 }
 .logo-text-buffer {
-  display: inline-block;
-  margin-bottom: 16px;
-}
-.logo-buffer {
-  margin-bottom: 16px;
+margin-bottom: 16px;
 }
 
-.complementary-text-footer {
-  width: 264px;
+
+
+
+.link-logo-buffer {
+  margin-bottom: 16px;
+
+
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  display: inline-block;
 }
 
 /*portfolio upravy*/
@@ -303,14 +344,13 @@ img{
 }
 
 .button-title-port-all {
-  display: inline;
   border-radius: 4px;
   padding: 12px 24px;
   min-width: 69px;
   border: 1px solid var(--ramecek-tlacitka);
 
   font-family: var(--font-family);
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -378,6 +418,7 @@ img{
 }
 
 .second-title {
+  margin-top: 0;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -386,6 +427,8 @@ img{
 }
 
 .second-text {
+  margin-top: 0;
+  margin-bottom: 0;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -394,7 +437,7 @@ img{
 }
 
 .menu-link-adresa-port {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
